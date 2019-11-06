@@ -7,20 +7,26 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { LoginComponent } from './login/login.component';
 import { TopNavComponent } from './top-nav/top-nav.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { MaterialCommonModule } from './commons/material.commons.module'
 
-import {MatToolbarModule} from '@angular/material/toolbar';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    TopNavComponent
+    TopNavComponent,
+    DashboardComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule
+    LayoutModule,
+    MaterialCommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
