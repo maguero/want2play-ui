@@ -1,6 +1,11 @@
+[![Build Status](https://travis-ci.org/maguero/want2play-ui.svg?branch=master)](https://travis-ci.org/maguero/want2play-ui)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b0fb78d3d66c4b8fb46d6db4fade3447)](https://www.codacy.com/manual/maguero/want2play-ui?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=maguero/want2play-ui&amp;utm_campaign=Badge_Grade)
 # Want2play UI
 
-Project generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.14.
+**Want to Play UI** is a frontend application develop with [Angular](https://angular.io/) and [Angular Material](https://material.angular.io/).
+
+# Setting up
+Run `npm install` to install dependencies.
 
 ## Development server
 
